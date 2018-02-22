@@ -1,11 +1,17 @@
 {
-  "name": "elm-feature-switch-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "elm-feature-switch-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "babel-node index.js --presets env"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"babel-preset-env": "^1.6.1",
+		"express": "^4.16.2",
+		"isomorphic-fetch": "^2.2.1"
+	}
 }
