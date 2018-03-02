@@ -12,8 +12,8 @@ npm start
 
 ### GET `/features`:
 
-    returns an array of feature switches formatted for the app.
+returns an array of feature switches formatted for the app.
 
 ### POST `/features`:
 
-    Adds whatever you send as a payload to a local cache of feature switches.  Is used to "add" a fs in the demonstration.
+Adds whatever you send as a payload to a local cache of feature switches.  Is used to "add" a fs in the demonstration.
