@@ -33,6 +33,6 @@ app.get('/features', (req, res) =>
 
 app.post('/features', (req, res) => {
 	CACHED_FEATURES.push(req.body);
-	console.log("thanks for the new feature switch!",req.body);
+	console.log('thanks for the new feature switch!', req.body);
 	res.send(req.body);
 });
