@@ -25,6 +25,7 @@ app.get('/features', (req, res) =>
 				const { name, description, isOn } = feature;
 				return { name, description, isOn };
 			});
+			console.log("here's the switches!");
 			res.send([...formattedFeatures, ...CACHED_FEATURES]);
 		})
 	)
